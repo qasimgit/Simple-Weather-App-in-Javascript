@@ -1,0 +1,63 @@
+/* background-image: ; */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+
+}
+
+body {
+    height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    to top,
+    #00d3ff,
+    #00dbf6,
+    #00e2e4,
+    #00e8c9,
+    #12eba9
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-repeat: no-repeat;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.cont {
+  margin-top: 100px;
+  border: 2px solid black;
+  width: 50%;
+}
+
+.location {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.temperature,
+.temperature-description {
+  display: flex;
+  justify-content: center;
+
+}
+
+.temperature {
+  margin-bottom: 10vh;
+}
+
+.timezone,
+p {
+  font-size: 50px;
+}
+
+.degree {
+  font-size: 50px;
+}
+
+.temperature-description{
+    font-size: 30px;
+}
