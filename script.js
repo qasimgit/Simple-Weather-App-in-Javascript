@@ -1,6 +1,11 @@
 window.addEventListener('load' , ()=> {
     let lon;
     let lat;
+
+    let timeZone = document.querySelector('.timezone');
+    let temperature = document.querySelector('.degree');
+    let description = document.querySelector('.temperature-desrciption');
+
     
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(position => {
