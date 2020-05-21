@@ -3,61 +3,66 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  
-
 }
 
 body {
-    height: 100vh;
+  height: 100vh;
   width: 100%;
-  background: linear-gradient(
+  background-image: linear-gradient(
     to top,
-    #00d3ff,
-    #00dbf6,
-    #00e2e4,
-    #00e8c9,
-    #12eba9
+    #a2e7e4,
+    #8cdcea,
+    #81ceef,
+    #85bff0,
+    #95adea,
+    #a6ade7,
+    #b5ade4,
+    #c2aee0,
+    #cfc2e9,
+    #ded7f1,
+    #eeebf8,
+    #ffffff
   );
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+  color: rgb(0, 0, 0);
   background-repeat: no-repeat;
-  font-family: 'Balsamiq Sans', cursive;
-}
+  font-family: 'Courgette', cursive;
+  text-shadow: 5px 5px rgb(255, 255, 255);
 
+  
+}  
 .cont {
   margin-top: 100px;
-  border: 2px solid black;
   width: 50%;
 }
 
 .location {
   display: flex;
   justify-content: space-between;
-  height: 15vh;
+  height: 25vh;
 }
 
 .temperature,
 .temperature-description {
   display: flex;
   justify-content: center;
-
 }
 
 .temperature {
-  margin-bottom: 10vh;
+  margin-bottom: 20vh;
 }
 
 .timezone,
 p {
-  font-size: 50px;
+  font-size: 80px;
 }
 
 .degree {
-  font-size: 50px;
+  font-size: 80px;
 }
 
-.temperature-description{
-    font-size: 30px;
+.temperature-description {
+  font-size: 50px;
 }
