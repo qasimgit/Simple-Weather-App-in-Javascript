@@ -20,7 +20,18 @@ window.addEventListener('load' , ()=> {
         })
         .then(data => {
             console.log(data);
-        })
+
+            const thistemp = data.main.temp; 
+            temperature.textContent = thistemp;
+
+            const location = data.name;
+            timeZone.textContent = location;
+
+            const desc = data.weather;
+            description.textContent = desc;
+        });
+
+
 
         })
     };
