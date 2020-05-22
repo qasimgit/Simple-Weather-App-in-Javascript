@@ -4,7 +4,7 @@ window.addEventListener('load' , ()=> {
 
     let timeZone = document.querySelector('.timezone');
     let temperature = document.querySelector('.degree');
-    let description = document.querySelector('.temperature-desrciption');
+    let description = document.querySelector('.temperature-description');
 
     
     if(navigator.geolocation){
@@ -28,7 +28,8 @@ window.addEventListener('load' , ()=> {
             timeZone.textContent = location;
 
             const desc = data.weather;
-            description.textContent = desc;
+            console.log(desc)
+            description.textContent = desc[0].description;
         });
 
 
